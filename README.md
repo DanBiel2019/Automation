@@ -1,6 +1,16 @@
 # Selenium WebDriver Demo
 This repository contains sample code for implementing Automation for Selenium's WebDriver.
 
+## What does the Sample/Demo code do?
+* Opens the Firefox Browser
+* Navigates to http://bing.com
+* Finds the search box by using FindElementById(“sb_form_q”)
+* Fills in the identified text butterfly in the search box
+* Finds the search button using FindElementById(“sb_form_go”)
+* Clicks on the identified search button. So the bing will return the search results.
+* Finds the first item from the search results using * FindElementByCssSelector(“#b_results li.b_algo h2 a”)
+* Clicks on the identified first item. So it navigates to first link
+
 ## NuGet Packages used
 
 * [Selenium.WebDriver](https://www.nuget.org/packages/Selenium.WebDriver)
