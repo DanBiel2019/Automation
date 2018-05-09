@@ -9,7 +9,7 @@ This repository contains sample code for implementing Automation for Selenium's 
 * Finds the search button using FindElementById(“sb_form_go”)
 * Clicks on the identified search button. So the bing will return the search results.
 * Finds the first item from the search results using * FindElementByCssSelector(“#b_results li.b_algo h2 a”)
-* Clicks on the identified first item. So it navigates to first link
+* Clicks on the identified first item and navigates to the first link
 
 ## NuGet Packages used
 
@@ -27,3 +27,6 @@ This packages contains driver for CHROME and it gets copied to the Run or Debug 
 FirefoxDriver and ChromeDriver classes are inherited from RemoteWebDriver class
 
 RemoteWebDriver class implements multiple interfaces and some are IWebDriver, IDisposable, IJavaScriptExecutor and so on
+
+### Firefox Add On
+In case if you are using Firefox please install the [Selenium addon](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/).

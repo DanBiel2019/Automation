@@ -13,7 +13,7 @@
             webdriver.Url = @"http://bing.com";
 
             var searchBox = webdriver.FindElement(By.Id("sb_form_q"));
-            searchBox.SendKeys("butterfly");//This methods inputs butterfly into the HTML's input element
+            searchBox.SendKeys("butterfly");//This method inputs butterfly into the HTML's input element
 
             var searchButton = webdriver.FindElementById("sb_form_go");
             searchButton.Click();
