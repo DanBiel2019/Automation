@@ -2,9 +2,11 @@
 {
     using OpenQA.Selenium;
     using OpenQA.Selenium.Firefox;
+    using System;
+
     //using OpenQA.Selenium.Chrome;
 
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
@@ -20,6 +22,15 @@
 
             var firstResultLink = webdriver.FindElementByCssSelector("#b_results li.b_algo h2 a");
             firstResultLink.Click();
+            var expectedUrl = "https://en.wikipedia.org/wiki/Butterfly";
+            if (expectedUrl.Equals(webdriver.Url, System.StringComparison.InvariantCultureIgnoreCase))
+            {
+                Console.WriteLine("Passed");
+            }
+            else
+            {
+                Console.WriteLine("Failed");
+            }
         }
     }
 }
