@@ -29,7 +29,7 @@ namespace Automation.Demo
             {
                 Console.WriteLine("Failed");
             }
-
+            webdriver.Close();
             Console.ReadLine();
         }
     }

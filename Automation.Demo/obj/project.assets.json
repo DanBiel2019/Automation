@@ -3636,11 +3636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Other\\WebDriverDemo\\Automation.Demo\\Automation.Demo.csproj",
+      "projectUniqueName": "C:\\Personal\\Projects\\Automation\\Automation.Demo\\Automation.Demo.csproj",
       "projectName": "Automation.Demo",
-      "projectPath": "C:\\Other\\WebDriverDemo\\Automation.Demo\\Automation.Demo.csproj",
+      "projectPath": "C:\\Personal\\Projects\\Automation\\Automation.Demo\\Automation.Demo.csproj",
       "packagesPath": "C:\\Users\\shiljop\\.nuget\\packages\\",
-      "outputPath": "C:\\Other\\WebDriverDemo\\Automation.Demo\\obj\\",
+      "outputPath": "C:\\Personal\\Projects\\Automation\\Automation.Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
